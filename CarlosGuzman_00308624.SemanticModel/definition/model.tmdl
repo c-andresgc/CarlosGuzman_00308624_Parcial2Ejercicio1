@@ -1,0 +1,34 @@
+model Model
+	culture: en-US
+	defaultPowerBIDataSourceVersion: powerBI_V3
+	sourceQueryCulture: es-419
+	dataAccessOptions
+		legacyRedirects
+		returnErrorValuesAsNull
+
+annotation PBI_QueryOrder = ["Dim_Calendario","Dim_Cliente","dim_canal","dim_sede","dim_vehiculo","Dim_Vendedor","fact_Presupuestos","Fact_Ventas","Fotos_Vehiculos","Hoja1"]
+
+annotation __PBI_TimeIntelligenceEnabled = 1
+
+annotation PBIDesktopVersion = 2.140.1577.0 (25.02)+00af0910c5ca19a229c472b0dfc17a2c488f6b0a
+
+annotation PBI_ProTooling = ["DevMode"]
+
+ref table Dim_Calendario
+ref table DateTableTemplate_2dae7769-6a74-4b71-a267-6885350ce59f
+ref table LocalDateTable_6cfeb8f8-b432-4c48-b554-51a5a69cda32
+ref table Dim_Cliente
+ref table dim_canal
+ref table dim_sede
+ref table dim_vehiculo
+ref table Dim_Vendedor
+ref table LocalDateTable_03912733-497d-49fc-bd9c-c6abef6e0ffe
+ref table fact_Presupuestos
+ref table Fact_Ventas
+ref table Fotos_Vehiculos
+ref table Hoja1
+ref table LocalDateTable_0651fe3d-9ca5-4a87-884e-c7d12bff17b0
+ref table LocalDateTable_d04631b3-f767-4958-b7c1-325e4ae183c7
+
+ref cultureInfo en-US
+

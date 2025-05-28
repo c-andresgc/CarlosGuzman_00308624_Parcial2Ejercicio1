@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "Report",
+    "displayName": "CarlosGuzman_00308624"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "4edf9d8b-9b28-442c-807e-0eb27ca5cdf2"
+  }
+}
