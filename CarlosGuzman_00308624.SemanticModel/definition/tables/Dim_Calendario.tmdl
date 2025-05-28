@@ -1,6 +1,11 @@
 table Dim_Calendario
 	lineageTag: e536388d-57ab-4293-8c77-b53f97767acb
 
+	measure 'Ganancia Total' = SUM('Fact_Ventas'[Precio Venta sin IGV]) - SUM('Fact_Ventas'[Costo Vehículo])
+		lineageTag: 5c92e1c4-530a-427b-b071-762ddfad92cb
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
 	column Fecha
 		dataType: dateTime
 		formatString: Long Date
